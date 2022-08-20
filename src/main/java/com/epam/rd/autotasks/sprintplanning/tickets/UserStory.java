@@ -22,6 +22,8 @@ public class UserStory extends Ticket {
         return dependsOn.clone(); //клонує об'єкт і надає доступ лишень до його копії
     }
 
+
+
     //[US 1] User Story 1
     @Override
     public String toString() {
